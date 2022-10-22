@@ -1,0 +1,51 @@
+1)
+Come analyzer si è scelto il white space analyzer per il retrieve del titolo del file, mentre per il contenuto
+si è utilizzato lo standard analyzer con l'aggiunta di una lista di stop word per aumentare la velocità del retrieve.
+2)
+Il numero dei file della cartella è di 8 file di testo e i tempi di indicizzazione variavano a seconda se si cercavano
+parole singole o più parole. 
+3)
+Sono statate testate diverse query con frasi intere o parole singole che hanno consentito il retrieve
+del relativo documento dando altresì un punteggio in base all'attinenza della query al contenuto del file.
+
+Inserisci una parola o una frase qualsiasi.......
+pensiero
+Risultati :: 1
+File : Directory/filosofia.txt, Score : 1.2740726
+
+
+lingua latina
+Risultati :: 1
+File : Directory/giurisprudenza.txt, Score : 4.048405
+
+
+Inserisci una parola o una frase qualsiasi.......
+materia che parla di diritto
+Risultati :: 3
+File : Directory/giurisprudenza.txt, Score : 2.8566487
+File : Directory/fisica.txt, Score : 1.0406028
+File : Directory/biologia.txt, Score : 0.89771307
+
+
+Inserisci una parola o una frase qualsiasi.......
+disciplina pensiero idea
+Risultati :: 5
+File : Directory/filosofia.txt, Score : 1.5592539
+File : Directory/matematica.txt, Score : 0.5056662
+File : Directory/giurisprudenza.txt, Score : 0.45308608
+File : Directory/ingegneria.txt, Score : 0.35562843
+File : Directory/architettura.txt, Score : 0.28518122
+
+Inserisci una parola o una frase qualsiasi.......
+lo studio del corpo umano il sangue le vene le ossa
+Risultati :: 8
+File : Directory/medicina.txt, Score : 3.6013017
+File : Directory/architettura.txt, Score : 1.9681169
+File : Directory/matematica.txt, Score : 1.2280606
+File : Directory/biologia.txt, Score : 1.0840986
+File : Directory/filosofia.txt, Score : 0.86012864
+File : Directory/fisica.txt, Score : 0.19576582
+File : Directory/ingegneria.txt, Score : 0.15712759
+File : Directory/giurisprudenza.txt, Score : 0.14291333
+
+Inserisci una parola o una frase qualsiasi.......
